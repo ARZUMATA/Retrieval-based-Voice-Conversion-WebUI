@@ -1,3 +1,12 @@
+# Note from ARZUMATA
+
+This project hasn’t been updated in a while, so it doesn’t work well with the 5090 series.
+I did some fixes to make sure it works well.
+
+[View additional notes](ARZUMATA.md)
+
+— Ksenia Meduzkova
+
 <div align="center">
 
 <h1>Retrieval-based-Voice-Conversion-WebUI</h1>
