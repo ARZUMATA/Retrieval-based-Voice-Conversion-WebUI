@@ -43,3 +43,16 @@ pip install matplotlib==3.9.0
 pip install gradio-client==0.2.10
 pip install gradio==3.48.0
 ```
+
+# makeDeviceForHostname(): unsupported gloo device
+[Issue](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/2674)
+
+Fix in commits.
+
+# fairseq.data.dictionary.Dictionary was not an allowed global by default
+
+```WeightsUnpickler error: Unsupported global: GLOBAL fairseq.data.dictionary.Dictionary was not an allowed global by default. Please use `torch.serialization.add_safe_globals([fairseq.data.dictionary.Dictionary])` or the `torch.serialization.safe_globals([fairseq.data.dictionary.Dictionary])` context manager to allowlist this global if you trust this class/function.```
+
+Allow Safe Loading.
+Fix in commits.
+```
